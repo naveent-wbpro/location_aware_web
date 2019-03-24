@@ -1,0 +1,1 @@
+<?= "<div id='location-aware-map'>LocationAware.io is loading...</div><script id='location-aware-script' data-company-id='{$code_snippet->company_id}' data-api-key='{$code_snippet->api_key}' data-center=".json_encode($coordinates)." data-prime-id='{$prime_id}'src='http://localhost:8000/js/location_aware_snippet.js'></script>" ?>

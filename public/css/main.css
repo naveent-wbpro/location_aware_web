@@ -1,0 +1,733 @@
+/*!
+ * Agency v1.0.7 (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.text-muted {
+  color: #777777;
+}
+.text-primary {
+}
+p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+p.large {
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+a {
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.img-centered {
+  margin: 0 auto;
+}
+.bg-light-gray {
+  background-color: #f7f7f7;
+}
+.bg-darkest-gray {
+  background-color: #222222;
+}
+.btn-primary {
+  color: #ffffff;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  border-color: #f6bf01;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+}
+.btn-primary .badge {
+  background-color: #ffffff;
+}
+.btn-xl {
+  color: #ffffff;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  color: #ffffff;
+}
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  background-image: none;
+}
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+}
+.btn-xl .badge {
+  background-color: #ffffff;
+}
+.welcome-nav {
+  background-color: #222222;
+  border-color: transparent;
+}
+.welcome-nav .navbar-brand {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, cursive;
+  color: #fff;
+}
+.welcome-nav .navbar-brand:hover,
+.welcome-nav .navbar-brand:focus,
+.welcome-nav .navbar-brand:active,
+.welcome-nav .navbar-brand.active {
+}
+.welcome-nav .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.welcome-nav .navbar-toggle {
+}
+.welcome-nav .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.welcome-nav .navbar-toggle:hover,
+.welcome-nav .navbar-toggle:focus {
+}
+.welcome-nav .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.welcome-nav .nav li a:hover,
+.welcome-nav .nav li a:focus {
+  outline: none;
+}
+.welcome-nav .navbar-nav > .active > a {
+  border-radius: 0;
+  color: #333;
+}
+.welcome-nav .navbar-nav > .active > a:hover,
+.welcome-nav .navbar-nav > .active > a:focus {
+  color: white;
+}
+@media (min-width: 768px) {
+  .welcome-nav {
+    background: rgba(0,0,0,.5);
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .welcome-nav .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .welcome-nav .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+  .welcome-nav.navbar-shrink {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .welcome-nav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+header {
+  background-image: url('/images/map_image_formatted.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
+}
+section {
+  padding: 100px 0;
+}
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+section h3.section-subheading {
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
+}
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+#workflow .workflow-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#workflow .workflow-item .workflow-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#workflow .workflow-item .workflow-link .workflow-hover {
+  background: rgba(47, 145, 214, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#workflow .workflow-item .workflow-link .workflow-hover:hover {
+  opacity: 1;
+}
+#workflow .workflow-item .workflow-link .workflow-hover .workflow-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#workflow .workflow-item .workflow-link .workflow-hover .workflow-hover-content i {
+  margin-top: -12px;
+}
+#workflow .workflow-item .workflow-link .workflow-hover .workflow-hover-content h3,
+#workflow .workflow-item .workflow-link .workflow-hover .workflow-hover-content h4 {
+  margin: 0;
+}
+#workflow .workflow-item .workflow-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+}
+#workflow .workflow-item .workflow-caption h4 {
+  text-transform: none;
+  margin: 0;
+}
+#workflow .workflow-item .workflow-caption p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+}
+#workflow * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #workflow .workflow-item {
+    margin: 0 0 30px;
+  }
+}
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid white;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
+}
+aside.clients img {
+  margin: 50px auto;
+}
+section#contact {
+  background-color: #222222;
+  background-image: url('../img/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section#contact .section-heading {
+  color: white;
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+section#contact .form-group input.form-control {
+  height: auto;
+}
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+section#contact .form-control:focus {
+  box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbbb;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbbb;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbbb;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbbb;
+}
+section#contact .text-danger {
+  color: #e74c3c;
+}
+.welcome-footer {
+  padding: 25px 0;
+  text-align: center;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+footer ul.quicklinks {
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
+}
+.workflow-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.workflow-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.workflow-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.workflow-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+.workflow-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.workflow-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.workflow-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.workflow-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.workflow-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.workflow-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.workflow-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+.content {
+  margin-top: 60px;
+}
+.sub-content {
+  margin-top: 20px;
+}
+.login-container {
+  margin-top: 20px;
+}
+
+section#contact .form-group input.form-control {
+  height: auto;
+}
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+section#contact .form-control:focus {
+  box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbbb;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbbb;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbbb;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbbb;
+}
+section#contact .text-danger {
+  color: #e74c3c;
+}
+.workflow-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.workflow-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.workflow-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.workflow-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+.workflow-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.workflow-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.workflow-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.workflow-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.workflow-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.workflow-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.workflow-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+.form-group.noMarginBottom{
+
+  margin-bottom: 0px;
+}
+.orange{background-color: orange!important;
+border-color: orange!important }
+.green{background-color: green!important;
+border-color: green!important }
+
+.list-ic a {
+  color: #788288;
+  text-decoration: none;
+}
+.list-ic li {
+  position: relative;
+}
+.list-ic li span {
+  display: inline-block;
+  font-weight: 800;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 1em;
+  background: #18bc9c;
+  color: white;
+  position: relative;
+}
+.list-ic li::before {
+  content: '';
+  position: absolute;
+  background: #18bc9c;
+  z-index: -1;
+}
+.list-ic.horizontal li {
+  display: inline-block;
+}
+.list-ic.horizontal li span {
+  margin: 0 1em;
+}
+.list-ic.horizontal li::before {
+  top: 0.9em;
+  left: -25px;
+  width: 4em;
+  height: 0.2em;
+}
+.list-ic.vertical {
+  padding: 0;
+  margin: 0;
+}
+.list-ic.vertical p {
+  margin-left: 33px;
+  margin-top: -15px;
+}
+.list-ic.vertical li {
+  list-style-type: none;
+  text-align: left;
+}
+.list-ic.vertical li span {
+  margin: 1.4em 0;
+}
+.list-ic.vertical li::before {
+  top: -40px;
+  left: 13px;
+  width: 0.2em;
+  height: 9em;
+}
+.list-ic li:first-child::before {
+  display: none;
+}
+.list-ic .active {
+  background: dodgerblue;
+}
+.list-ic .active ~ li {
+  background: lightblue;
+}
+.list-ic .active ~ li::before {
+  background: lightblue;
+}
+
+.photo-container {
+    border: 1px solid #ccc;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}

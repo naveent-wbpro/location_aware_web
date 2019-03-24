@@ -1,0 +1,1 @@
+Please use the following code to confirm your request: {{ $request->validation_string }}
